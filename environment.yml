@@ -1,0 +1,21 @@
+name: flight-delay-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn>=1.3.0
+  - jupyter
+  - notebook
+  - pip:
+    - xgboost
+    - lightgbm
+    - catboost
+    - kagglehub
+
+
